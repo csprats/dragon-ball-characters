@@ -11,6 +11,7 @@
 .character {
   display: inline-block;
   margin: 10px;
+  margin-bottom: 200px;
   border: solid black 1px;
   border-radius: 8px;
   width: 250px;
@@ -23,13 +24,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 99.165vw;
   box-sizing: border-box;
 }
 
 .image {
-  width: 100%; /* El ancho ocupará el 100% de su contenedor */
-      height: 100%; /* Limita la altura para que no crezca demasiado */
-      object-fit: contain;
-      display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.normal-trasformations {
+  display: inline-block;
 }
